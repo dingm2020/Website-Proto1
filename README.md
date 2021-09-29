@@ -3,5 +3,6 @@ Displays an image pulled from the RandomDog API. Made using React.js and Next.js
 
 
 ## Status
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fd449909-193c-4356-9ee9-19cc0fc00cf9/deploy-status)](https://app.netlify.com/sites/max-randomdog-api/deploys)
 [Link](https://max-randomdog-api.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fd449909-193c-4356-9ee9-19cc0fc00cf9/deploy-status)](https://app.netlify.com/sites/max-randomdog-api/deploys)
+
