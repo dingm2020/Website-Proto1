@@ -1,6 +1,6 @@
 import React, {Component} from "react"
 import fetch from "isomorphic-unfetch"
-
+import Head from "next/head"
 
 // Website made using this guide
 // https://coderrocketfuel.com/article/how-to-create-a-website-with-next-js-and-react
@@ -17,11 +17,16 @@ export default class extends Component {
 
     render() {
         return(
-            //<div>Your Next.js App</div>
-            <div className="homepage-wrapper">
-                <h1>Random Dog Image</h1>
-                <img src={this.props.imageURL} />
-            </div>
+
+            <>
+                <Head>
+                    <title>My Page</title>
+                </Head>
+                <div className="homepage-wrapper">
+                    <h1>Random Dog Image</h1>
+                    <img src={this.props.imageURL} />
+                </div>
+            </>
         )
     }
 }
