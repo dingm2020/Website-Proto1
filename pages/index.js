@@ -20,7 +20,7 @@ export default class extends Component {
 
             <>
                 <Head>
-                    <title>My Page</title>
+                    <title>Max's Proto Site 1</title>
                 </Head>
                 <div className="homepage-wrapper">
                     <h1>Random Dog Image</h1>
